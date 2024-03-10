@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warMovieList.Midway">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="20dp"
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="373dp"
+                android:layout_height="249dp"
+                app:srcCompat="@drawable/midway"
+                tools:layout_editor_absoluteX="19dp"
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/sinopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:gravity="left"
+                android:text="Sinopsis: "
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="265dp" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Tanggal rilis awal: "
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="298dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/sutrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sutradara: Aaron Schneider"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="336dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:id="@+id/distributor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Didsitribusikan oleh: "
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="374dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/nomination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nominasi: "
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="413dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:id="@+id/anggaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anggaran: "
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="452dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp">
+                <Button
+                    android:id="@+id/buttonMidway"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+
+                    >
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

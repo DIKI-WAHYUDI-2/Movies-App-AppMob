@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".romanceMovieList.RomanceMovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/tuneinforlove"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="177dp"
+                    android:paddingLeft="15dp"
+                    android:text= "Tune In For Love bercerita tentang kisah cinta dua anak muda yang terpaksa putus-nyambung karena keadaaan. Cerita mereka berawal ketika Mi Soo (Kim Go Eun) sedang menjaga toko kue warisan ibunya bersama sang kakak angkat, Eun Ja (Kim Gook Hee)."
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/bewithyou"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="Drama ini menceritakan sebuah keluarga yang dulunya sangat bahagia dan sempurna dengan seorang ibu bernama Soo Ah, ayah bernama Woo Jin, dan seorang putra bernama Ji Hoo. Namun semuanya berubah ketika Soo ah harus pergi dari dunia karena penyakitnya."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/lalaland"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="Berlatar di kota penuh kemegahan Los Angeles yang penuh kemacetan, Mia (Emma Stone) bekerja sebagai seorang barista dan memiliki cita-cita sebagai artis terkenal. Di tengah perjalanan yang cukup padat, secara tidak sengaja ia dipertemukan dengan sosok Sebastian (Ryan Gosling)."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/dearnathan"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="14dp"
+                    android:text="Cerita bermula ketika Salma (Amanda Rawles) yang merupakan seorang siswi pindahan di SMA Garuda terlambat masuk di hari pertamanya. Namun peristiwa ini membuatnya bertemu dengan Nathan (Jefri Nichol), seorang siswa yang dikenal berandalan dan suka berkelahi."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/ditto"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="Kim Yong merupakan seorang mahasiswa senior jurusan teknik mesin yang hidup di tahun 1999. Sementara itu, Kim Mu Nee merupakan mahasiswi jurusan sosiologi yang hidup di tahun 2022.
+
+Secara kebetulan Kim Yong bisa berkomunikasi dengan Kim Mu Nee dengan sebuah walkie talkie."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

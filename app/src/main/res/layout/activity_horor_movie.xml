@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".horrorMovieList.HororMovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/exorcist"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="177dp"
+                    android:paddingLeft="15dp"
+                    android:text= "Bercerita tentang usaha seorang ibu untuk menyembuhkan putrinya yang kerasukan setan melalui eksorsisme (ritual pengusiran setan) yang dilakukan oleh dua orang pastur."
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/friday"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="Film pertama Friday the 13th berawal dengan latar waktu 1958, ketika sekelompok remaja tengah berkemah di Camp Crystal Lake. Ternyata, seorang anak kecil tenggelam di danau dekat tempat kemping tersebut satu tahun sebelumnya.
+
+Berniat untuk bersenang-senang, mereka tak menyadari ancaman besar di sudah di depan mata. Ancaman pertama dihadapi Barry (Willie Adams) dan Claudette (Debra S. Hayes)."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/rings"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="The Ring mengawali kisah dari Rachel Keller (Naomi Watts). Sebelumnya ia sempat menonton sebuah rekaman video horor yang menyeramkan.
+
+Awalnya Rachel mengira video tersebut hanya rekaman biasa, namun siapa sangka bahwa setelah menonton itu mulai muncul kejadian-kejadian aneh dalam kesehariannya."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/paranormal"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="14dp"
+                    android:text="Paranormal Activity  hanya berkisah tentang pasangan muda yang sering mendapat gangguan supranatural selepas tengah malam menjelang pagi menjelang. Dari kerangka cerita yang sangat minimalis itu, bergulir kemasan film yang terbukti berhasil menghadirkan atmosfer rasa takut yang maksimal dan komersil, serta tensi ketegangan yang terus naik hingga puncak."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                >
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/insidous"
+                    android:layout_marginTop="12dp"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="11dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:text="Seorang guru Josh Lambert (Patrick Wilson) dan istrinya Renai (Rose Byrne) pindah bersama ketiga anak mereka, Dalton (Ty Simpkins), Foster (Andrew Astor) dan bayinya Cali, ke sebuah rumah besar."
+                    tools:layout_editor_absoluteX="177dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lanjut"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="171dp"
+                    tools:layout_editor_absoluteY="198dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warMovieList.Warmovie"
+    android:orientation="vertical"
+    >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            >
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/greyhound"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="177dp"
+                android:paddingLeft="15dp"
+                android:text= "Greyhound mengambil latar saat Perang Dunia II. Kisahnya diadaptasi dari novel berjudul The Good Shepherd karya C. S. Foster yang dirilis pada 1955 silam"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Lanjut"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="198dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            >
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/dunkirk"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Diceritakan terdapat lebih dari 400 ribu tentara Inggris dan Perancing pada saat Perang Dunia ke-2 yang terlantar di Dunkirk. Mereka menantikan keajaiban adanya aksi penyelamatan atau sampai mereka mati."
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Lanjut"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="198dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            >
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/hacksawridge"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Film Hacksaw Ridge diangkat berdasarkan kejadian nyata pengalaman Perang Dunia II dari Desmond Doss , seorang petugas medis perang pasifik Amerika yang menolak untuk membawa atau menggunakan senjata atau senjata api dalam bentuk apapun selama Pertempuran Okinawa."
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Lanjut"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="198dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            >
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/midway"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="Film ini mengisahkan tentang Pertempuran Midway, sebuah konflik besar dalam Perang Dunia II di Pasifik antara Amerika Serikat dan Kekaisaran Jepang. "
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Lanjut"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="198dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            >
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/allquiet"
+                android:layout_marginTop="12dp"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="Film ini mengadaptasi novel dengan judul yang sama yang rilis pada 1928 karangan Erich Maria Remarque, veteran Jerman dari PD I.
+
+Novel tersebut dan sekuelnya yang berjudul The Road Back (1930) termasuk dalam buku-buku yang dilarang dan dibakar di Nazi Jerman."
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Lanjut"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="198dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
